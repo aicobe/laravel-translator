@@ -1,0 +1,29 @@
+{
+    "name": "aicobe/laravel-translator",
+    
+    "authors": [
+        {
+            "name": "aicobe",
+            "email": "me@taikostan.com"
+        }
+    ],
+
+    "keywords": [
+        "laravel",
+        "translator"
+    ],
+
+    "require": {
+        "caouecs/laravel-lang": "~3.0",
+        "symfony/process": "^3.0|^4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Aicobe\\LaravelTranslator\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+
+    "license": "MIT"
+}
