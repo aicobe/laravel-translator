@@ -15,7 +15,7 @@
 
     "require": {
         "caouecs/laravel-lang": "~3.0",
-        "symfony/process": "^3.0|^4.0"
+        "symfony/process": "^5.4.46"
     },
 
     "autoload": {
